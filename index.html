@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quotation Radom</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+ <script src="CustomizedquotationScript.js"></script> 
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  
+<link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script> 
+  
+
+
+</head>
+
+<div class="aroundGeneratorDesign">
+	<div class="boxDesign">
+		<h1>Quote Generator</h1>
+		<main class="mainDesign typewriter"><p id="quoteDisplay"></p>
+			
+		</main>
+		<div class="buttonBox">
+			<div class="container gridDistance">
+				<div class="row">
+					<div class="col-sm-6 buttonMargin ">
+						<p class="textDiscriptionDisplay responsiveDisplay">Select the number of Quotes (1 till 5 quotes).</p>
+						<input id="myNumber" class="form-control" type="number" name="ticketMurder" min="1" max="5" placeholder="0">
+					</div>
+					<div class="col-sm-6">
+						<p class="textDiscriptionDisplay">Select the phrases of your quotes (2 or 4 phrase).</p>
+						<div class="container">
+							<div class="row">
+								<div class="col-6">
+									<p class="choiceDisplayLeft">
+										2 Phases
+									</p>
+								</div>
+								<div class="col-6">
+									<p class="choiceDisplayRight">
+										4 Phases
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12">
+									<input type="range" min="1" max="2" value="1" class="slider" id="sliderNumber">
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>	
+		</div>
+	<div class="buttonBox">
+			<div class="container">
+				<div class="row gridDistance buttonPadding">
+					<div class="col-sm-6">
+						<button type="button" id="deleteButton" class="btn buttonDesign" onclick="deleteQuote()">Delete Quotes</button>
+					</div>
+					<div class="col-sm-6">
+						<button type="button buttonDesign" id="generateLoops" class="btn buttonDesign" onclick="createQuote()">Your Quotes</button>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>		
+</div>
+ 
+
+
+</body>
+

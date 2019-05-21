@@ -1,0 +1,161 @@
+
+
+html, body, .aroundGeneratorDesign {
+		background-color: #EDEAE5;
+}
+
+ body,p{
+	font-family: 'Courgette', cursive;
+	font-size: 1.4em;
+	color: #333;
+}
+
+
+
+h1{
+	font-family: 'Kurale', serif !important;
+	font-size: 3em !important; 
+	text-align: center;
+	color: #FcE181 !important;
+	padding: 3% 0%;
+}
+
+/* Input box */
+input[type=number] {
+	width: 70px; 
+	text-align: center;
+	margin: auto;
+	height: 1.9em ;
+	padding: 3px;
+	background-color: #EDEAE5;
+	color: #333;
+}
+
+.buttonDesign {
+	font-family: 'Kurale', serif !important;
+	font-size: 2em !important;
+	margin: 2% !important;
+	color: #333 !important;
+	background-color: #73ac9d !important;
+	box-shadow: 0 0 0 1px #689d8f inset, 0 0 0 2px rgba(207,232,225,0.15) inset, 0 1px 0 0 #55877a, 0 1px 0 1px rgba(46,71,64,0.4), 0 1px 1px 1px rgba(35,53,48,0.5) !important;	
+  
+}
+
+
+/* Layout for button in grid */
+
+.aroundGeneratorDesign{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+} 
+.buttonMargin{
+	margin-bottom: 6%;
+}
+
+.buttonPadding {
+	padding-bottom: 5%;
+}
+
+.btn:focus {
+	outline: none !important;
+}
+
+/* Design in button*/
+.buttonBox {
+	text-align: center;
+	background-color: #026670;
+	z-index: 1;
+}
+
+
+/*Layout for background */
+.mainDesign{
+	background-color: #FBE8A6;
+	min-height: 200px; 
+	padding: 2% 3%;
+	border-style: inset;
+	border-color: #555;
+	border-width: 4px;
+	margin: 0% 3%;
+}
+
+/*Layout for quote generator */
+.boxDesign{
+	background-color: #026670;
+	width: 70%;
+	margin: auto;
+	-moz-box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.7);
+	box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.7);
+}
+
+/* Layout in the grid */
+.textDiscriptionDisplay {
+	color: #222;	
+	min-height: 90px;
+}
+
+/* Layout in the grid */
+.choiceDisplayLeft {
+	color: #222;
+	text-align: left;
+}
+
+/* Layout in the grid */
+.choiceDisplayRight {
+	color: #222;
+	text-align: right;
+}
+
+/* Layout in the grid */
+.gridDistance {
+	padding-top: 2%;
+}
+
+/* layout range slider */
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 25px;
+	background: #014147;
+	outline: none;
+	opacity: 0.6;
+	-webkit-transition: .9s;
+	transition: opacity .9s;
+}
+
+/* layout range slider */
+.slider:hover {
+	opacity: 1;
+}
+
+/* layout range slider */
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: #73ac9d;
+	cursor: pointer;
+}
+
+/* layout range slider */
+.slider::-moz-range-thumb {
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: #73ac9d;
+	cursor: pointer;
+}
+
+/* text for invalid input */
+.mistake{
+	color: red;	
+}
+
+@media only screen and (max-width: 768px) {
+
+.responsiveDisplay{
+	min-height: 40px !important;
+}
