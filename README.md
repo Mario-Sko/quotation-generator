@@ -9,4 +9,4 @@ Requirements:
 - Choose between 2 types of quote generators (example: 3 sentence fragments [beginning, middle, and end])
 - **additional**: typing effect 
 
-https://mario-sko.github.io/quote-generator/
+Go to the quote generator: https://mario-sko.github.io/quote-generator/
