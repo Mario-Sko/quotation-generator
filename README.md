@@ -7,6 +7,6 @@ Requirements:
 - The quotes are generated randomly one by one with each JavaScript call
 - Select the number of quotes generated (between 1 and 5)
 - Choose between 2 types of quote generators (example: 3 sentence fragments [beginning, middle, and end])
-- additional: typing effect 
+- **additional**: typing effect 
 
 https://mario-sko.github.io/quote-generator/
