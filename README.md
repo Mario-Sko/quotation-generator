@@ -1,5 +1,6 @@
 # Quote Generator with Typing Effect 
 
+This is my project from the Unit 5 of my frond-end developer study at the Openclassrooms.
 
 Requirements: 
 - Build a random quote generator . 
